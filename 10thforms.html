@@ -1,45 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primathon Assignment</title>
 </head>
+
 <body>
     <form method="get" enctype="application/x-www-form-urlencoded" action="#">
-        <label for="Name"> <b>Name:</b> 
-            <input type="text" value="fname" id="name" placeholder="first name" required >
+        <label for="Name"> <b>Name:</b>
+            <input type="text" id="name" placeholder="first name" required>
         </label>
         <label for="Name">
-            <input type="text" value="lname" placeholder="last name" required  >
+            <input type="text" id="name" placeholder="last name" required>
         </label><br>
-
-
-
         <p>
-        <label for="Link with me"><b>Link with me: </b></label></div></p>
-    <p><label for="phone">Mobile No:</label>
-        <input type="tel" id="Mobile No."  placeholder="123456" > </p> <br>
-    <p> <label for="email address">Email address:</label>
-        <input type="email" id="email address" placeholder="wxyz@gmail.com"> </p>
+            <label for="Link with me"><b>Link with me: </b></label></div>
+        </p>
+        <p><label for="phone">Mobile No:</label>
+            <input type="tel" id="Mobile No." placeholder="123456">
+        </p> <br>
+        <p> <label for="email address">Email address:</label>
+            <input type="email" id="email address" placeholder="wxyz@gmail.com">
+        </p>
         <fieldset>
+            <legend><b>Which Taxi do u need?</b></legend>
             <p>
                 <label for="Car">
-                  <input type="radio" name="taxi" required value="car" id="Car" /> Car
+                    <input type="radio" name="taxi" required value="car" id="Car" /> Car
                 </label>
-                
-              </p>
-              <p>
+            </p>
+            <p>
                 <label for="Van">
-                  <input type="radio" name="taxi" required value="van" id="Van" /> Van
+                    <input type="radio" name="taxi" required value="van" id="Van" /> Van
                 </label>
-              </p>
-              <p>
+            </p>
+            <p>
                 <label for="Tuktuk">
-                  <input type="radio" name="taxi" required value="tuktuk" id="Tuktuk" /> Tuk Tuk
+                    <input type="radio" name="taxi" required value="tuktuk" id="Tuktuk" /> Tuk Tuk
                 </label>
-              </p> 
+            </p>
+        </fieldset>
+            <fieldset>
+                <legend><b>which type of food do want?</b></legend>
+                <p>
+                    <label for="veg">
+                        <input type="checkbox" name="veg" required value="veg" id="veg" /> veg
+                    </label>
+                </p>
+                <p>
+                    <label for="nonveg">
+                        <input type="checkbox" name="nonveg" required value="nonveg" id="nonveg" /> nonveg
+                    </label>
+                </p>
+                <p>
+                    <label for="fasting">
+                    <input type="checkbox" name="fruit&Juice" required value="fasting" id="fasting"/>fasting
+                </label>
+                </p>
+
+
+            </fieldset>
         </fieldset>
         <fieldset>
             <legend><b>Extras</b></legend>
@@ -52,54 +75,55 @@
             <label for="stock tip">stock tip
                 <input type="checkbox" value="stock tip" name="stock tip" id="stock tip">
             </label> <br>
-        </fieldset> <p>
+        </fieldset>
         <label for="pick up date time"><b>pick up date time:</b></label>
         <input type="datetime-local" value="Wheelchair Access" name="Wheelchair Access" id="Wheelchair Access "></p>
         <p>
-            <!-- Alpha, Beta, Gamma, Delta, Omicron, Mu, Zu, Chai-Fi, Pai -->
+
             <label for="pick up place"><b>Pick up place:</b> </label>
             <select name="pick up place" id="pick up place">
-            <option value="Alpha1">Alpha1</option>
-            <option value="Alpha2">Alpha2</option>
-            <option value="Beta1">Beta1</option>
-            <option value="Beta2">Beta2</option>
-            <option value="Gamma1">Gamma1</option>
-            <option value="Gamma2">Gamma2</option>
-            <option value="Delta1">Delta1</option>
-            <option value="Delta2">Gamma2</option>
-            <option value="ETA2">ETA1</option>
-            <option value="ETA2">ETA2</option>
-            <option value="lamda1">lamda1</option>
-            <option value="lamda2">lamda2</option>
-            <option value="Thita1">Thita1</option>
-            <option value="Thita2">Thita2</option>
+                <option value="Alpha1">Alpha1</option>
+                <option value="Alpha2">Alpha2</option>
+                <option value="Beta1">Beta1</option>
+                <option value="Beta2">Beta2</option>
+                <option value="Gamma1">Gamma1</option>
+                <option value="Gamma2">Gamma2</option>
+                <option value="Delta1">Delta1</option>
+                <option value="Delta2">Gamma2</option>
+                <option value="ETA2">ETA1</option>
+                <option value="ETA2">ETA2</option>
+                <option value="lamda1">lamda1</option>
+                <option value="lamda2">lamda2</option>
+                <option value="Thita1">Thita1</option>
+                <option value="Thita2">Thita2</option>
             </select>
         </p>
         <p>
             <label for="drop off place"><b>Drop off place:</b> </label>
             <select name="drop off place" id="drop off place">
-            <option value="Alpha1">Alpha1</option>
-            <option value="Alpha2">Alpha2</option>
-            <option value="Beta1">Beta1</option>
-            <option value="Beta2">Beta2</option>
-            <option value="Gamma1">Gamma1</option>
-            <option value="Gamma2">Gamma2</option>
-            <option value="Delta1">Delta1</option>
-            <option value="Delta2">Gamma2</option>
-            <option value="ETA2">ETA1</option>
-            <option value="ETA2">ETA2</option>
-            <option value="lamda1">lamda1</option>
-            <option value="lamda2">lamda2</option>
-            <option value="Thita1">Thita1</option>
-            <option value="Thita2">Thita2</option>
+                <option value="Alpha1">Alpha1</option>
+                <option value="Alpha2">Alpha2</option>
+                <option value="Beta1">Beta1</option>
+                <option value="Beta2">Beta2</option>
+                <option value="Gamma1">Gamma1</option>
+                <option value="Gamma2">Gamma2</option>
+                <option value="Delta1">Delta1</option>
+                <option value="Delta2">Gamma2</option>
+                <option value="ETA2">ETA1</option>
+                <option value="ETA2">ETA2</option>
+                <option value="lamda1">lamda1</option>
+                <option value="lamda2">lamda2</option>
+                <option value="Thita1">Thita1</option>
+                <option value="Thita2">Thita2</option>
             </select>
         </p>
         <p>
             <label for="Special instruction"><b>Special instruction:</b></label> <br>
-            <textarea name="Special instruction" id="" cols="30" rows="10" ></textarea>
+            <textarea name="Special instruction" id="" cols="30" rows="10"></textarea>
         </p>
         <button>submit booking</button>
     </form>
 
 </body>
+
 </html>
