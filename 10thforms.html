@@ -6,24 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primathon Assignment</title>
+    
 </head>
 
-<body>
+<body style="background-color:palegoldenrod;">
     <form method="get" enctype="application/x-www-form-urlencoded" action="#">
         <label for="Name"> <b>Name:</b>
-            <input type="text" id="name" placeholder="first name" required>
+            <input type="text" id="name" placeholder="first name" required style="background-color:aqua ;" >
         </label>
         <label for="Name">
-            <input type="text" id="name" placeholder="last name" required>
+            <input type="text" id="name" placeholder="last name" required style="background-color:aqua ;">
         </label><br>
         <p>
             <label for="Link with me"><b>Link with me: </b></label></div>
         </p>
         <p><label for="phone">Mobile No:</label>
-            <input type="tel" id="Mobile No." placeholder="123456">
+            <input type="tel" id="Mobile No." placeholder="123456"style="background-color:aqua ;">
         </p> <br>
         <p> <label for="email address">Email address:</label>
-            <input type="email" id="email address" placeholder="wxyz@gmail.com">
+            <input type="email" id="email address" placeholder="wxyz@gmail.com"style="background-color:aqua ;">
         </p>
         <fieldset>
             <legend><b>Which Taxi do u need?</b></legend>
@@ -47,17 +48,17 @@
                 <legend><b>which type of food do want?</b></legend>
                 <p>
                     <label for="veg">
-                        <input type="checkbox" name="veg" required value="veg" id="veg" /> veg
+                        <input type="radio" name="foodtype" required value="veg" id="veg" /> veg
                     </label>
                 </p>
                 <p>
                     <label for="nonveg">
-                        <input type="checkbox" name="nonveg" required value="nonveg" id="nonveg" /> nonveg
+                        <input type="radio" name="foodtype" required value="nonveg" id="nonveg" /> nonveg
                     </label>
                 </p>
                 <p>
                     <label for="fasting">
-                    <input type="checkbox" name="fruit&Juice" required value="fasting" id="fasting"/>fasting
+                    <input type="radio" name="foodtype" required value="fasting" id="fasting"/>fasting
                 </label>
                 </p>
 
@@ -119,7 +120,7 @@
         </p>
         <p>
             <label for="Special instruction"><b>Special instruction:</b></label> <br>
-            <textarea name="Special instruction" id="" cols="30" rows="10"></textarea>
+            <textarea name="Special instruction" id="" cols="30" rows="10"style="background-color:aqua ;" style="font-size:200px;"></textarea>
         </p>
         <button>submit booking</button>
     </form>
