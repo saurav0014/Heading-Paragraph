@@ -19,20 +19,25 @@
         <p>
         <label for="Link with me"><b>Link with me: </b></label></div></p>
     <p><label for="phone">Mobile No:</label>
-        <input type="tel" id="Mobile No." placeholder="123456"></p> <br>
+        <input type="tel" id="Mobile No."  placeholder="123456" > </p> <br>
     <p> <label for="email address">Email address:</label>
         <input type="email" id="email address" placeholder="wxyz@gmail.com"> </p>
         <fieldset>
-            <legend><b> Which taxi do u required?</b></legend>
-            <label for="Car">Car
-                <input type="radio" value="Car" name="Car" id="Car">
-            </label> <br>
-            <label for="Van">Van
-                <input type="radio" value="Van" name="Car" id="Van">
-            </label> <br>
-            <label for="tuk-tuk">tuk-tuk
-                <input type="radio" value="tuk-tuk" name="tuk-tuk" id="tuk-tuk">
-            </label> <br>
+            <p>
+                <label for="Car">
+                  <input type="radio" name="taxi" required value="car" id="Car" /> Car
+                </label>
+              </p>
+              <p>
+                <label for="Van">
+                  <input type="radio" name="taxi" required value="van" id="Van" /> Van
+                </label>
+              </p>
+              <p>
+                <label for="Tuktuk">
+                  <input type="radio" name="taxi" required value="tuktuk" id="Tuktuk" /> Tuk Tuk
+                </label>
+              </p> 
         </fieldset>
         <fieldset>
             <legend><b>Extras</b></legend>
